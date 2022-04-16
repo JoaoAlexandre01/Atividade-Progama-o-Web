@@ -1,28 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles/style.css" rel="stylesheet">
-    <link href="styles/fonts.css" rel="stylesheet">
-    <link href="styles/media.css" rel="stylesheet">
-    <title>Landing Page</title>
+    <meta name="author" content="João Alexandre" >
+        <meta
+        name="description"
+        content="Black Dragon Infomática - 2022"
+        >
+        <meta name="keywords" content="informática, black dragon, loja, servicos" >
+    <link href="Atividade-Progama-o-Web/SITE/styles/style.css" rel="stylesheet">
+    <link href="Atividade-Progama-o-Web/SITE/styles/fonts.css" rel="stylesheet">
+    <link href="Atividade-Progama-o-Web/SITE/styles/media.css" rel="stylesheet">
+    
+    <title>Black Dragon Informática</title>
 </head>
-<body style="height: 1200px; background-image:url('components/images/205-1024x576.jpg'); background-size:cover;"> 
+<body style="height: 1200px; background-image:url('Atividade-Progama-o-Web/SITE/components/images/205-1024x576.jpg'); background-size:cover;"> 
     <header>
         <div id="conteudo">
             <div id="title">
-                <img src="components/images/1-removebg-preview.png" alt="logo-black" width="130px" height="100px">
+                <img src="Atividade-Progama-o-Web/SITE/components/images/1-removebg-preview.png" alt="logo-black" width="130px" height="100px">
             </div>
     
            
                 <ul>
-                    <a href="#"><li>Início</li></a>
+                    <a href="Atividade-Progama-o-Web/SITE/home/inicio.html"><li>Início</li></a>
                     <a href="#servicos"><li>Serviços</li></a>
-                    <a href="#"><li>Sobre</li></a>
-                    <a href="home/contato.html"><li>Contato</li></a>
-                    <a href="#home/cadatro.html" id="inscreva-se-btn"><li>Já tem uma conta?</li></a>
+                    <a href="#sobre"><li>Sobre</li></a>
+                    <a href="Atividade-Progama-o-Web/SITE/home/contato.html"><li>Contato</li></a>
+                    <a href="Atividade-Progama-o-Web/SITE/home/cadatro.html" id="inscreva-se-btn"><li>Já tem uma conta?</li></a>
                 </ul>
             
         </div>
@@ -30,15 +36,15 @@
 
     <main>
         <aside>
-            <h2><span>Compre agora</span></h2>
-            <h2>Black Dragon</h2>
+            <p><h2><span><strong>Compre agora na</strong></span></h2></p>
+            <p><h2>Black Dragon</h2></p>
             <p>
                 Nossa loja tem de tudo o que você precisa para montar ou dar uma turbinada em seu PC. 
                 Contamos com uma vasta infinidade de peças e contamos com assistência técnica especializada para o seu PC.
 
             </p>
             <p>
-                Quebou ou estragou? Corra a nossa loja. Faça sua Manutenção Preventiva e não espere seu PC te deixar na mão.
+                Quebou ou estragou? Corra à nossa loja. Faça sua Manutenção Preventiva e não espere seu PC te deixar na mão.
             </p>
             <form>
                 <input type="text" placeholder="Nome">
@@ -48,16 +54,16 @@
         </aside>
 
         <article>
-            <img src="components/images/computador-gamer-pcmix-intel-core-i3-9100-16gb-ddr4-ssd-480gb-windows-10-cpu-l4100w_1622580764_original-removebg-preview.png" alt="pc-gamer" hspace="100px">
+            <img src="Atividade-Progama-o-Web/SITE/components/images/computador-gamer-pcmix-intel-core-i3-9100-16gb-ddr4-ssd-480gb-windows-10-cpu-l4100w_1622580764_original-removebg-preview.png" alt="pc-gamer" hspace="100px">
         </article>
     </main>
 
     <div id="servicos">
-
-        <h3>SERVIÇOS</h3>
-
         <div id="tabela">
             <table>
+              <tr>
+                <td colspan="3"><h1><strong>SERVIÇOS</strong></h1></td>
+              </tr>
                 <tr>
                   <td>Formatação Completa</td>
                   <td>R$ 90,00</td>
@@ -98,13 +104,29 @@
                   <td>Orçamento sem Compromisso</td>
                   <td colspan="2">SOMENTE PARA COMPUTADORES TRAZIDOS ATÉ NOSSA LOJA</td>
                 </tr>
+                <tr>
+                  <td></td>
+                </tr>
               </table>
         </div>
     </div>
 
     <div id="sobre">
-        <p>Somos</p>
+
+      <table>
+        <tr>
+          <td>
+            <h2><span>Sobre a</span></h2>
+      <h2>Black Dragon</h2>
+      <h3>Somos uma empresa nova no mercado, mas que viemos com experiência no ramo de Técnologia, trazendo equipamentos de ultima geração e prestando a melhor Assistência Técnica do Brasil.</h3>
+      <h3>Produtos Inovadores, Designs Criativos, Durabilidade Extrema e Compromisso com Preços Honestos - a Black Dragon é uma marca Gamer com esses 4 importantes pilares que. Não só nos produtos, a Black Dragon trabalha lado a lado com gamers e especialistas, e se renova todos os dias para criar o produto certo pra você, que também Desafia seus Limites todos os dias.</h3>
+          </td>
+        </tr>
+      </table>
+      
     </div>
-    
+    <div id="borda">
+      <img src="Atividade-Progama-o-Web/SITE/components/images/kisspng-copyright-symbol-law-author-logo-5b47b539c8b2e4.0372912315314261058221-removebg-preview.png" alt="copyright"/>
+    </div>
 </body>
 </html>
